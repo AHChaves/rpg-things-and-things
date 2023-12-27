@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(37, 37, 37);
+
+}
+
+h1, h3{
+    color: indigo;
+    text-align: center;
+}
+
+p{
+    color: #fff;
+}
+
+
+[class*= "col"]{
+    padding: 1rem;
+    background-color: rgb(37, 37, 37);
+    border: 2px solid indigo;
+    border-radius: 15px;
+}
