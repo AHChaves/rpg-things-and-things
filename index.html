@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">   
 </head>
 <body>
     
@@ -14,23 +14,51 @@
     </div>
 
     <div class="container mt-4">
-        <div class="row gy-4">
-            <div class="col-6"> 
-                <h3>Ordem de iniciativa</h3>
+        <div class="row gx-5 gy-5">
+            <div class="col-6">
+                <div class="col-12 quadrado">
+                    <h3>Ordem de iniciativa</h3>
+
+                    <div class="table-responsive-md ">
+                        <table id="tabela" class="table table-sm table-dark">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Nome</th>
+                                    <th>iniciativa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                
+                            </tbody>
+                        </table>
+
+                        <button type="button" class="btn" onclick="addRow()">Adicionar personagem</button>
+
+                    </div>
+
+                </div>
             </div>
             <div class="col-6 ">
-                <h3>Turnos e Efeitos</h3>
+                <div class="col-12 quadrado">
+                    <h3>Turnos e Efeitos</h3>
+                </div>
             </div>
             <div class="col-6">
-                <h3>Rolagens personalizadas</h3>
+                <div class="col-12 quadrado">
+                    <h3>Rolagens personalizadas</h3>
+                </div>
             </div>
             <div class="col-6 ">
-                <h3>Criaturas</h3>
+                <div class="col-12 quadrado">
+                    <h3>Criaturas</h3>
+                </div>
             </div>
             
         </div>
     </div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="table.js"></script>
 </body>
 </html>

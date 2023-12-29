@@ -4,7 +4,7 @@ body{
 }
 
 h1, h3{
-    color: indigo;
+    color: #ffffffea;
     text-align: center;
 }
 
@@ -12,8 +12,18 @@ p{
     color: #fff;
 }
 
+.btn{
+    color: purple;
+    border: 0;
+    transition: 0.3s;
+}
 
-[class*= "col"]{
+.btn:hover{
+    color: purple;
+    transform: scale(1.05);
+}
+
+[class*= "quadrado"]{
     padding: 1rem;
     background-color: rgb(37, 37, 37);
     border: 2px solid indigo;
